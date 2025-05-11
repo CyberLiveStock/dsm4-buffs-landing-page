@@ -300,9 +300,9 @@
 
 .team-card img {
   width: 100%;
-  height: 260px;
+  height: 300px;
   object-fit: cover;
-  background-color: #28a745;
+  /* background-color: #28a745; */
 }
 
 .team-info {
@@ -328,7 +328,7 @@
 
 .team-card p {
   font-family: 'Afacad', sans-serif;
-  padding: 8px 16px 16px;
+  padding: 8px 16px 10px;
   font-size: 0.95rem;
   color: #555;
 }
@@ -340,6 +340,15 @@
   font-size: 1rem;
   color: #444;
 }
+
+  .team-icons a {
+    color: inherit; /* faz com que o <a> use a cor de .team-icons */
+    text-decoration: none; /* remove o sublinhado */
+  }
+
+  .team-icons a:hover {
+    color: #000; /* opcional: cor ao passar o mouse */
+  }
 
 /* Footer */
 
@@ -365,8 +374,8 @@
 }
 
 .footer-section h3 {
-  font-size: 25px;
-
+  font-size: 20px;
+  font-family: 'Afacad', sans-serif;
   margin-bottom: 15px;
 }
 
@@ -378,6 +387,7 @@
 .footer-section ul li {
   margin-bottom: 10px;
   font-size: 0.95rem;
+  font-family: 'Afacad', sans-serif;
 }
 
 .footer-section ul li i {
