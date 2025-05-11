@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AgroCore</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg bg-white shadow-sm"
+      style="
+        position: fixed !important;
+        width: 100% !important;
+        z-index: 1000 !important;
+      "
+    >
+      <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img src="imagens/logo.png" alt="AgroCore" height="55" />
+        </a>
+
+        <!-- Botão para mobile -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Links -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <!-- style="margin-right: 46px" -->
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#sobre">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projeto">Projeto Buffs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#equipe">Equipe</a>
+            </li>
+          </ul>
+          <a href="#" class="btn btn-success ms-lg-3">Contato</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Preview do Projeto  -->
+    <section class="hero-section">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1>AgroCore</h1>
+            <p>
+              Transformando o manejo de bubalinos com tecnologia avançada e
+              soluções integradas
+            </p>
+            <div class="hero-buttons">
+              <a href="#solucoes" class="btn btn-success ms-lg-10"
+                >Conhecer Soluções</a
+              >
+              <a href="#equipe" class="btn btn-success ms-lg-3">Sobre Nós</a>
+            </div>
+          </div>
+          <div class="hero-image">
+            <img
+              src="imagens/logo-preview.png"
+              alt="Gráfico AgroCore"
+              height="250"
+              class="me-2"
+              style="align-items: center"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Descrição do Projeto -->
+    <section id="sobre" class="desc-section">
+      <div class="container" style="padding: 60px">
+        <h2>Projeto Buffs</h2>
+        <p>
+          Buffs é uma plataforma de controle e acompanhamento da produção
+          leiteira e do manejo de búfalas. O objetivo é oferecer um controle
+          mais preciso dos dados zootécnicos, sanitários e reprodutivos dos
+          animais, assim como da produção de leite, incluindo médias semanais,
+          mensais e anuais do rebanho. Além disso, auxilia o proprietário na
+          gestão da produção e na tomada de decisões estratégicas sobre sua
+          propriedade.
+        </p>
+      </div>
+    </section>
+
+    <!-- Cards do Projeto -->
+    <section id="solucoes" class="cards-buffs">
+      <div class="cards-container">
+        <div class="card">
+          <div class="icon">📦</div>
+          <h3>Dados Zootécnicos</h3>
+          <p>
+            Controle preciso de indicadores zootécnicos para melhor gestão do
+            rebanho
+          </p>
+        </div>
+        <div class="card">
+          <div class="icon">💉</div>
+          <h3>Controle Sanitário</h3>
+          <p>
+            Acompanhamento de vacinações e tratamentos sanitários dos animais
+          </p>
+        </div>
+        <div class="card">
+          <div class="icon">📅</div>
+          <h3>Ciclo Reprodutivo</h3>
+          <p>Monitoramento completo do ciclo reprodutivo das búfalas</p>
+        </div>
+        <div class="card">
+          <div class="icon">📈</div>
+          <h3>Médias de Produção</h3>
+          <p>Médias semanais, mensais e anuais de produção leiteira</p>
+        </div>
+        <div class="card">
+          <div class="icon">📊</div>
+          <h3>Análise de Dados</h3>
+          <p>Estatísticas e insights para tomada de decisões estratégicas</p>
+        </div>
+        <div class="card">
+          <div class="icon">🌱</div>
+          <h3>Manejo Sustentável</h3>
+          <p>Ferramentas para gestão sustentável do rebanho bubalino</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Porque escolher o Buffs -->
+    <section id="projeto" class="buffs-benefits">
+      <div class="benefits-box">
+        <div class="icon-box">!</div>
+        <div class="text-content">
+          <h2>Por que escolher a plataforma Buffs?</h2>
+          <p>
+            Nossa solução foi desenvolvida especificamente para o manejo de
+            búfalas, considerando as particularidades desta espécie e as
+            necessidades dos produtores. Com interface intuitiva e relatórios
+            detalhados, transformamos dados em decisões para aumentar a
+            produtividade do seu rebanho.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Equipe de Desenvolvedores -->
+    <section id="equipe" class="team-section">
+      <div class="container">
+        <h2 class="team-title">Nossa Equipe</h2>
+        <p class="team-subtitle">
+          Profissionais especializados em unir tecnologia e agropecuária para
+          oferecer as melhores soluções.
+        </p>
+
+        <div class="team-grid">
+          <div class="team-card">
+            <img src="imagens/foto-vini.jpeg" alt="Vinicius Souza" />
+            <div class="team-info">
+              <h3>Vinicius Souza</h3>
+              <span class="role green">Dev Back-End</span>
+            </div>
+            <p>
+              Especialista em arquitetura de servidores e bancos de dados para
+              aplicações.
+            </p>
+            <div class="team-icons">
+              <a href="https://github.com/V1niSouza">
+                <i class="fa-brands fa-github"></i>
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/vinisouza05?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                target="_blank"
+              >
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="team-card">
+            <img src="imagens/foto-joao.jpeg" alt="João Lima" />
+            <div class="team-info">
+              <h3>João Lima</h3>
+              <span class="role green">Dev Front-End</span>
+            </div>
+            <p>
+              Dev front-end com experiência em criar interfaces intuitivas para
+              o setor agro.
+            </p>
+            <div class="team-icons">
+              <a href="https://github.com/JoaoKuzinor">
+                <i class="fa-brands fa-github"></i>
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/jo%C3%A3o-pedro-kuzinor-a8b4962b6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                target="_blank"
+              >
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="team-card">
+            <img src="imagens/foto-paulo.jpeg" alt="Paulo Cesar" />
+            <div class="team-info">
+              <h3>Paulo Cesar</h3>
+              <span class="role green">UX Design e Dev Front-End</span>
+            </div>
+            <p>
+              Designer de experiência do usuário focado em soluções para o
+              agronegócio.
+            </p>
+            <div class="team-icons">
+              <a href="https://github.com/paulocsa">
+                <i class="fa-brands fa-github"></i>
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/paulocsa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                target="_blank"
+              >
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <!-- Coluna 1: Logo e descrição -->
+        <div class="footer-section">
+          <div class="logo">
+            <img
+              src="imagens/logo-footer.png"
+              alt="AgroCore"
+              height="55"
+              class="me-2"
+            />
+            <span
+              style="
+                font-size: 20px;
+                font-weight: 600;
+                font-family: 'Afacad', sans-serif;
+              "
+              >AgroCore</span
+            >
+          </div>
+          <p>
+            Transformando o manejo de bubalinos com tecnologia avançada e
+            soluções integradas.
+          </p>
+          <!-- <div class="social-icons">
+            <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+          </div> -->
+        </div>
+
+        <!-- Coluna 2: Contato -->
+        <div class="footer-section">
+          <h3>Contato</h3>
+          <ul>
+            <li><i class="fas fa-phone"></i> +55 (13) 99725-4676</li>
+            <li>
+              <i class="fas fa-map-marker-alt"></i> Av. Clara Gianotti de Souza,
+              257 - Registro - SP, 11900-000
+            </li>
+          </ul>
+        </div>
+
+        <!-- Coluna 3: Links rápidos -->
+        <div class="footer-section">
+          <h3>Links Rápidos</h3>
+          <ul>
+            <li><a href="#sobre">Sobre Nós</a></li>
+            <li><a href="#projeto">Projeto Buffs</a></li>
+            <li><a href="#equipe">Nossa Equipe</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        © 2025 AgroCore. Todos os direitos reservados.
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
